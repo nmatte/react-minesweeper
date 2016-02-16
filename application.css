@@ -9,8 +9,7 @@
   float: left;
   text-align: center;
   line-height: 25px;
-  font-family: arial;
-  border-radius: 18%;
+  font-family: 'Playfair Display', serif;  border-radius: 18%;
 }
 
 .minesweeper-header {
@@ -19,6 +18,7 @@
   display: block;
   margin: auto;
   padding: 0px 0px 20px 0px;
+  font-family: 'Playfair Display', serif;
 }
 
 .board {
@@ -51,6 +51,10 @@
   color: yellow;
 }
 
+body{
+  background-color: #F2F3F8
+}
+
 .modal {
     /*display: none;*/
      /* Hidden by default */
@@ -73,11 +77,13 @@
     padding: 20px;
     border: 1px solid #888;
     width: 30%;
+    font-family: 'Playfair Display', serif;
 }
 
 .modal-text {
   display: block;
   text-align: center;
+  font-family: 'Playfair Display', serif;
 }
 
 .close {

@@ -6,7 +6,7 @@ var ReactMinesweeper = React.createClass({
   render: function () {
     return (
       <div>
-        <h1 className="minesweeper-header">Minesweeper time</h1>
+        <h1 className="minesweeper-header">BruinSweeper</h1>
         <h3 className="minesweeper-header"><em>by Matt and Nate</em></h3>
         <Game/>
         <p className="minesweeper-header"><em>Alt-click to flag</em></p>

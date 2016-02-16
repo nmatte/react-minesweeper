@@ -26,9 +26,9 @@ var Game = React.createClass({
     if (this.state.board.won() || this.state.board.lost()){
       hideOrShow = "display";
       if (this.state.board.won()) {
-        msg = "You won!!";
+        msg = "Congratulations, well done!";
       } else {
-        msg = "You LOST! SUCKA!!";
+        msg = "Sorry, try again!";
       }
     }
 
