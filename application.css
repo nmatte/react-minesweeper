@@ -3,13 +3,14 @@
   color: black;
   width: 25px;
   height: 25px;
-  background-color: #ccc;
-  border: 2px solid #bbb;
+  background-color: #235F7F;
+  border: 2px solid   #FFE800;
   border-style: outset;
   float: left;
   text-align: center;
   line-height: 25px;
-  font-family: fantasy;
+  font-family: arial;
+  border-radius: 18%;
 }
 
 .minesweeper-header {
@@ -27,16 +28,15 @@
 }
 
 .tile:not(.flagged):hover{
-
   border-style: inset;
   cursor: pointer;
-  background-color: #eee;
+  background-color: #00A5E5;
 }
 
 .explored {
-  color: blue;
+  color: white;
   border-style: inset;
-  background-color: #ddd;
+  background-color: #3284BF;
 }
 
 .unexplored {

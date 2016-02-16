@@ -13,7 +13,7 @@ var Tile = React.createClass({
 
     if(this.props.tile.flagged){
         className+= " flagged";
-        appearance = "\uD83D\uDCA9";
+        appearance = "🐻";
     }
 
     if(this.props.tile.explored){
